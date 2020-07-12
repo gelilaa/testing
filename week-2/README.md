@@ -74,15 +74,17 @@ The topics you should focus on during your study this week.
 > during Sunday class
 > - [Lesson Plan Slides](./week-1/index.html)
 
-
+Practice using Array Methods and Higher Order Functions
 
 ### Isolate
 
-
+- [/isolate exercises](../isolate/index.html)
+  - Higher Order Functions (examples & exercises)
+  - Array Methods (examples & class exercises)
 
 ### Integrate
 
-
+- [/integrate Using Array Methods](../integrate/index.html)
 
 [TOP](#testing)
 
@@ -97,10 +99,16 @@ The topics you should focus on during your study this week.
 
 #### JavaScript
 
+- [Functional Programming in JS](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+
+### Reading Code
+
+- [Helpful Links from _Behavior, Strategy, Implementation](https://github.com/HackYourFutureBelgium/behavior-strategy-implementation#helpful-links)
+
 #### Endless Practice
 
 - [edabit](https://edabit.com/)
-<!-- - [fuzz](https://hackyourfuture.be/fuzz) -->
+- [fuzz](https://hackyourfuture.be/fuzz)
 - [codewars](https://www.codewars.com/)
 
 > Are we missing a great resource? Send us a PR!
@@ -109,14 +117,21 @@ The topics you should focus on during your study this week.
 
 ### Exercises
 
+- A Pull Request into the `/shared-notes/testing` directory of you class repo
+  - A helpful link, diagram, or image
+  - An important code snippet
+  - A paragraph, or even a new markdown file
+  - ... anything you found helpful this week :rocket:
 - [Behavior, Strategy, Implementation](https://github.com/HackYourFutureBelgium/behavior-strategy-implementation)
   - Fork and clone this repo
   - :egg: write up 3 Codewars challenges
-  - :hatching_chick_: why stop at 3?
+  - :hatching_chick: why stop at 3?
 - [Document and Pass](https://github.com/HackYourFutureBelgium/document-and-pass/)
   - Fork and clone this repo
   - :egg: Document and pass any 3 of the exercises
-  - :hatching_chicks: Why stop at 3?
+  - :hatching_chick: Why stop at 3?
+- :hatched_chick: [8pointers/JavaScript-Koans/4-arrays](https://github.com/8pointers/JavaScript-Koans/tree/master/src/4-arrays)
+
 
 ---
 
@@ -134,7 +149,7 @@ The topics you should focus on during your study this week.
 - [ ] [A project board](https://github.com/user-name/repo-name/projects/X) with all issues moved to "Done"
 ```
 
-#### ``
+#### TBD after sunday class
 
 :shipit:
 
