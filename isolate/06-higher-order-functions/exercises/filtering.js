@@ -9,9 +9,12 @@ const deepCompare = (actual, expect) => actual === expect || Object.is(actual, e
  * @param {string} str - string to check for "!"
  * @returns {boolean} if str contains "!" or not
  */
-const isEnthusiastic = (_) => {
-  return _;
-};
+
+const isEnthusiastic = (str) => str.match('!');
+// match is a string method
+// param regular expression which will compare with the given string.(regExp)
+//Return Value: It will return an array that contain the matches one 
+//item for each match or if the match will not found then it will return Null.
 
 
 // this works!  no need to change it

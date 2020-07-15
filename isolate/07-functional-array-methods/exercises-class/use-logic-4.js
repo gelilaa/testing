@@ -24,7 +24,7 @@ const sumNumbery = (arr) => {
   };
 
   // fill in the array methods and pass the correct logic
-  const areAllStrings = arr._(_);
+  const areAllStrings = arr.every(isString);
   if (!areAllStrings) {
     throw new TypeError('arr is not all strings');
   }
@@ -72,4 +72,8 @@ describe('sumNumbery: sums all the numbery strings in an array', () => {
       assert.deepStrictEqual(arg, ['hello', 'goodbye']);
     });
   });
+<<<<<<< Updated upstream
 });
+=======
+});
+>>>>>>> Stashed changes

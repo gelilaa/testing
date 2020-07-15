@@ -19,8 +19,13 @@ const firstNegativeNumber = (arr) => {
 
   // fill in the array methods and pass the correct logic
   const negativeNumber = arr
+<<<<<<< Updated upstream
     ._(_)
     ._(_);
+=======
+    .filter(isNumber)
+    .find(isNegative);
+>>>>>>> Stashed changes
 
   return negativeNumber;
 };
@@ -66,4 +71,8 @@ describe('firstNegativeNumber: returns the first falsy string', () => {
       assert.deepStrictEqual(arg, ['hello', 'goodbye']);
     });
   });
+<<<<<<< Updated upstream
 });
+=======
+});
+>>>>>>> Stashed changes

@@ -7,22 +7,14 @@
  * @param {string} str - the string to check for enthusiasm
  * @returns {boolean}
  */
-const isCurious = (_) => {
-  return _;
-};
-
-// this works! no need to change it
-const find = (arr, callback) => {
-  let found;
   for (let entry of arr) {
-    const isTheThing = callback(entry);
     if (isTheThing) {
       found = entry;
       break;
     }
   }
   return found;
-};
+
 
 // returns undefined if the array is empty
 const _1_expect = undefined;

@@ -10,6 +10,7 @@ const assert = chai.assert;
  * @returns {number[]} an array containing numbers that aren't NaN
  */
 const numberyNumberify = (arr) => {
+  
   // these work, you need to use them with the right array methods
   const isNotNaN = (entry) => {
     return !Number.isNaN(entry);
@@ -20,8 +21,8 @@ const numberyNumberify = (arr) => {
 
   // fill in the array methods and which logic to use
   const allValidNumbers = arr
-    ._(_)
-    ._(_);
+    .map(castTo)
+    .filter(castToNumber);
 
   return allValidNumbers;
 };

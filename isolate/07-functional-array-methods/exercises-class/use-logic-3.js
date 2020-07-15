@@ -57,4 +57,8 @@ describe('sentenceIt: converts an array of strings into a sentence', () => {
       assert.deepStrictEqual(arg, ['hello', 'goodbye']);
     });
   });
+<<<<<<< Updated upstream
 });
+=======
+});
+>>>>>>> Stashed changes

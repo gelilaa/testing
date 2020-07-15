@@ -7,9 +7,8 @@
  * @param {any} val
  * @returns {boolean}
  */
-const isFalsy = (_) => {
-  return _;
-};
+
+const isFalsy = (val)=> !(val);
 
 
 // this works!  no need to change it
@@ -30,6 +29,7 @@ const _1_test = _1_actual === _1_expect;
 console.assert(_1_test, 'Test 1');
 
 // returns true when every entry is falsy
+
 const _2_expect = true;
 const _2_actual = every(['', 0, null, undefined, false], isFalsy);
 const _2_test = _2_actual === _2_expect;

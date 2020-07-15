@@ -12,8 +12,9 @@ const mapToNumber = (arr) => {
   if (!Array.isArray(arr)) { throw new TypeError('arr'); }
 
   const numberValues = [];
-  for (const _ of _) {
-
+  for (const val of arr) {
+    let n = Number(val);
+    numberValues.push(n);
   }
 
   return numberValues;
