@@ -2,20 +2,20 @@
 
 const assert = chai.assert;
 
-/**
+/**https://stackoverflow.com/questions/20059995/how-to-create-an-object-from-an-array-of-key-value-pairs
  * creates a copy of the object with all falsy entries removed
  * @param {Object} obj - the object to filter
  * @returns {Object} - the filtered object
  */
 const keepTruthyEntries = (obj) => {
 
-  const truthyEntries = Object.entries(_)
-    ._(entry => {
+  const truthyEntries = Object.entries(obj)
+    .filter(entry => {
       const value = entry[1];
-      return _;
+      return value ;
     });
 
-  const truthyObject = Object._(_);
+  const truthyObject = Object.fromEntries(truthyEntries);
 
   return truthyObject;
 };

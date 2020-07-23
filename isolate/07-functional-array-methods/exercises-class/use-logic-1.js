@@ -21,8 +21,8 @@ const numberyNumberify = (arr) => {
 
   // fill in the array methods and which logic to use
   const allValidNumbers = arr
-    .map(castTo)
-    .filter(castToNumber);
+    .map(castToNumber)
+    .filter(isNotNaN);
 
   return allValidNumbers;
 };

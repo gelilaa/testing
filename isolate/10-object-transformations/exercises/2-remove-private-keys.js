@@ -18,16 +18,17 @@ const assert = chai.assert;
  *
  * assert.deepStrictEqual(secureUser, {
  *  userName: 'public'
- * });
+ * });//The Object.keys() method returns an array of a given object's own enumerable property names,
+ *  iterated in the same order that a normal loop would.
  */
 const removePrivateKeys = (obj) => {
 
-  const secureObject = Object._(obj)
+  const secureObject = Object.keys(obj)
     .filter((key) => {
-      return _;
+        return !key.includes('_');
     })
     .reduce((newObj, nextKey) => {
-      newObj[_] = obj[_];
+      newObj[nextKey] = obj[nextKey];
       return newObj;
     }, {});
 

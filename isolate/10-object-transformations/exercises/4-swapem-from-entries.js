@@ -2,24 +2,25 @@
 
 const assert = chai.assert;
 
-/**
+/**https://stackoverflow.com/questions/20059995/how-to-create-an-object-from-an-array-of-key-value-pairs
  * switches the key and value for each string entry in an object
  * @param {Object} obj - an object
  * @returns {Object} - the swapped object
  */
 const swapem = (obj) => {
 
-  const swappedEntries = Object._(_)
+  const objEntries = Object.entries(obj);
+  const swappedEntries = objEntries
     .map((entry) => {
-      const key = _;
-      const value = _;
-      if (_) {
-        return [_, _];
+      const key = entry[0];
+      const value = entry[1];
+      if (typeof value ==='string') {
+        return [value,key];
       } else {
-        return [_, _];
+        return [key, value];
       }
     });
-  const swapped = Object._(_);
+  const swapped = Object.fromEntries(swappedEntries);
 
   return swapped;
 };

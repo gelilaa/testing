@@ -72,8 +72,5 @@ describe('sumNumbery: sums all the numbery strings in an array', () => {
       assert.deepStrictEqual(arg, ['hello', 'goodbye']);
     });
   });
-<<<<<<< Updated upstream
+
 });
-=======
-});
->>>>>>> Stashed changes
